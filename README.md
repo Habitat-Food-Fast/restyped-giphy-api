@@ -1,12 +1,12 @@
-## RESTyped typings for the Staffjoy API
+## RESTyped Staffjoy API
 
-Staffjoy API in TypeScript with type checking for URL endpoints and query params!
+Staffjoy API in TypeScript with type checking for URL endpoints and query params. To learn more about the RESTyped specification, check out the <a href="https://github.com/rawrmaan/restyped">official repo</a>.
 
 ## How to use it
 
 `npm install restyped-staffjoy-api`
 
-Then use a REST client that supports <a href="https://github.com/rawrmaan/restyped">RESTyped</a>, like <a href="https://github.com/rawrmaan/restyped-axios">`restyped-axios`</a>.
+You'll need a client that supports restyped <a href="https://github.com/rawrmaan/restyped-axios">`restyped-axios`</a>.
 
 ## Example
 
