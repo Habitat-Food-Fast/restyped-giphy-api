@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="/example.gif" />
-</p>
-
-## RESTyped typings for the Giphy API
+## RESTyped typings for the Staffjoy API
 
 Staffjoy API in TypeScript with type checking for URL endpoints and query params!
 
