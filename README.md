@@ -4,11 +4,11 @@
 
 ## RESTyped typings for the Giphy API
 
-Quickly and easily use the wonderful Giphy API in TypeScript with type checking for URL endpoints and query params!
+Staffjoy API in TypeScript with type checking for URL endpoints and query params!
 
 ## How to use it
 
-`npm install restyped-giphy-api`
+`npm install restyped-staffjoy-api`
 
 Then use a REST client that supports <a href="https://github.com/rawrmaan/restyped">RESTyped</a>, like <a href="https://github.com/rawrmaan/restyped-axios">`restyped-axios`</a>.
 
@@ -16,17 +16,23 @@ Then use a REST client that supports <a href="https://github.com/rawrmaan/restyp
 
 ```typescript
 import axios from 'restyped-axios'
-import { GiphyAPI } from 'restyped-giphy-api'
+import { StaffjoyAPI } from 'restyped-giphy-api'
 
-const client = axios.create<GiphyAPI>({baseURL: 'http://api.giphy.com/v1'})
+const client = axios.create<StaffjoyAPI>({
+   baseURL: 'https://staffing.tryhabitat.com/api',
+   auth: {
+      username: process.env.STAFFING_SECRET,
+      password: '' //just need jwt secret for auth
+   }
+})
 
 client.request({
-  url: '/gifs/search',
+  url: '/attendance',
   params: {
-    api_key: 'abc123',
-    q: 'zero effort'
+     startDate: 2017-12-15,
+     endDate: 2017-12-15
   }
 }).then((res) => {
-  return res.data.data[0].images.fixed_height.url
+  const { shifts, timeclocks, user_id } = res.data.data[0]
 })
 ```
