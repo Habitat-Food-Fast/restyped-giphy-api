@@ -1,7 +1,7 @@
 {
-  "name": "restyped-giphy-api",
-  "version": "1.0.1",
-  "description": "RESTyped typings for Giphy's REST API",
+  "name": "restyped-staffjoy-api",
+  "version": "1.1.0",
+  "description": "RESTyped typings for Staffjoys REST API",
   "main": "index.ts",
   "types": "giphy-api.d.ts",
   "scripts": {
@@ -11,10 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/rawrmaan/restyped-giphy-api.git"
   },
-  "author": "Arman Dezfuli-Arjomandi",
+  "author": "Michael Paszkiewicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rawrmaan/restyped-giphy-api/issues"
+    "url": "https://github.com/mikepaszkiewicz/restyped-staffjoy-api/issues"
   },
-  "homepage": "https://github.com/rawrmaan/restyped-giphy-api#readme"
+  "homepage": "https://github.com/mikepaszkiewicz/restyped-staffjoy-api#readme"
 }
