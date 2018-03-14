@@ -12,10 +12,10 @@ You'll need a client that supports restyped <a href="https://github.com/rawrmaan
 
 ```typescript
 import axios from 'restyped-axios'
-import { StaffjoyAPI } from 'restyped-giphy-api'
+import { StaffjoyAPI } from 'restyped-staffjoy-api'
 
 const client = axios.create<StaffjoyAPI>({
-   baseURL: 'https://staffing.tryhabitat.com/api',
+   baseURL: 'https://api.tryhabitat.com/api',
    auth: {
       username: process.env.STAFFING_SECRET,
       password: '' //just need jwt secret for auth
