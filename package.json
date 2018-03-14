@@ -9,12 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rawrmaan/restyped-giphy-api.git"
+    "url": "git+https://github.com/habitat-food-fast/restyped-staffjoy-api.git"
   },
   "author": "Michael Paszkiewicz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikepaszkiewicz/restyped-staffjoy-api/issues"
+    "url": "https://github.com/habitat-food-fast/restyped-staffjoy-api/issues"
   },
-  "homepage": "https://github.com/mikepaszkiewicz/restyped-staffjoy-api#readme"
+  "homepage":
+    "https://github.com/habitat-food-fast/restyped-staffjoy-api#readme"
 }
